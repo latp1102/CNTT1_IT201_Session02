@@ -27,5 +27,6 @@ int main() {
         }
     }
     printf("%d", count);
+    free(arr);
     return 0;
 }
