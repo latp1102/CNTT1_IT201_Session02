@@ -31,6 +31,7 @@ int main() {
             printf(" ");
         }
     }
+    free(arr);
     return 0;
 }
 
