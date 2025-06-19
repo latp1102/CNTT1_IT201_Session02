@@ -27,5 +27,6 @@ int main() {
         }
     }
     printf("%d", max);
+    free(arr);
     return 0;
 }
