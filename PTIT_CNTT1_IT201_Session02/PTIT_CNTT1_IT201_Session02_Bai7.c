@@ -35,5 +35,6 @@ int main() {
     if (!found) {
         printf("khong tim thay");
     }
+    free(arr);
     return 0;
 }
