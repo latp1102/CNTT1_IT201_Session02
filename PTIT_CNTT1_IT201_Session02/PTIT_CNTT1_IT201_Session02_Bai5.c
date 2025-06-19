@@ -34,5 +34,6 @@ int main() {
         printf("%d",arr[i]);
         printf(" ");
     }
+    free(arr);
     return 0;
 }
